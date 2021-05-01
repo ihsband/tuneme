@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+</div>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <title>TuneMe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas class="frequency-bars"></canvas>
+<div class="meter">
+  <div class="meter-dot"></div>
+  <div class="meter-pointer"></div>
+</div>
+<div class="notes">
+  <div class="notes-list"></div>
+  <div class="frequency"> <span>Hz</span></div>
+</div>
+<div class="a4">A<sub>4</sub> = <span>440</span> Hz</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script src="aubio.js"></script>
+<script src="tuner.js"></script>
+<script src="meter.js"></script>
+<script src="frequency-bars.js"></script>
+<script src="notes.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
